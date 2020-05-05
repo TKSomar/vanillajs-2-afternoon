@@ -73,10 +73,7 @@ window.addEventListener('mousemove', function(e) {
 function draw() {
   return setInterval(function() {
     const container = document.getElementById('wrap');
-    const color = `background:rgb(${getRandomNumber(0, 255)},${getRandomNumber(
-      0,
-      255
-    )}, ${getRandomNumber(0, 255)});`;
+    const color = `background:rgb(${getRandomNumber(0, 255)},${getRandomNumber(0, 255)}, ${getRandomNumber(0, 255)});`;
     const ballSize = getRandomNumber(10, 30);
     const size = `height:${ballSize}px; width:${ballSize}px;`;
     const left = `left:${getRandomNumber(
